@@ -164,7 +164,7 @@ async def start(client, message):
                     reply_markup=InlineKeyboardMarkup(
                         [
                          [
-                          InlineKeyboardButton('🔻 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔻', url=CHNL_LNK)
+                          InlineKeyboardButton('🛍️ sʜᴏᴘᴘɪɴɢ ᴅᴇᴀʟs 🛍️', url=f'https://t.me/+ZqHNj6fHdhUwODQ1')
                        ]
                         ]
                     )
@@ -323,13 +323,13 @@ async def start(client, message):
                 caption=f_caption,
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                     [
-                      InlineKeyboardButton('🔻 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔻', url=CHNL_LNK)
-                   ]
-                    ]
+                        [
+                         [
+                          InlineKeyboardButton('🛍️ sʜᴏᴘᴘɪɴɢ ᴅᴇᴀʟs 🛍️', url=f'https://t.me/+ZqHNj6fHdhUwODQ1')
+                       ]
+                        ]
+                    )
                 )
-            )
             filesarr.append(msg)
         await k.edit_text("<b>Your All Files/Videos is successfully deleted!!!</b>")
         return    
@@ -378,13 +378,13 @@ async def start(client, message):
                 file_id=file_id,
                 protect_content=True if pre == 'filep' else False,
                 reply_markup=InlineKeyboardMarkup(
-                    [
-                     [
-                      InlineKeyboardButton('🔻 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔻', url=CHNL_LNK)
-                   ]
-                    ]
+                        [
+                         [
+                          InlineKeyboardButton('🛍️ sʜᴏᴘᴘɪɴɢ ᴅᴇᴀʟs 🛍️', url=f'https://t.me/+ZqHNj6fHdhUwODQ1')
+                       ]
+                        ]
+                    )
                 )
-            )
             filetype = msg.media
             file = getattr(msg, filetype.value)
             title = ' ' + ' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@'), file.file_name.split()))
@@ -432,13 +432,13 @@ async def start(client, message):
         caption=f_caption,
         protect_content=True if pre == 'filep' else False,
         reply_markup=InlineKeyboardMarkup(
-            [
-             [
-              InlineKeyboardButton('🔻 ᴊᴏɪɴ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ 🔻', url=CHNL_LNK)
-           ]
-            ]
-        )
-    )
+                        [
+                         [
+                          InlineKeyboardButton('🛍️ sʜᴏᴘᴘɪɴɢ ᴅᴇᴀʟs 🛍️', url=f'https://t.me/+ZqHNj6fHdhUwODQ1')
+                       ]
+                        ]
+                    )
+                )
     btn = [[
         InlineKeyboardButton("Get File Again", callback_data=f'delfile#{file_id}')
     ]]
