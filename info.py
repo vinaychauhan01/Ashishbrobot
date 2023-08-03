@@ -13,8 +13,8 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '27402720'))
-API_HASH = environ.get('API_HASH', '38f0682dce493e07863bc6783016e98d')
+API_ID = int(environ.get('API_ID', '23420008'))
+API_HASH = environ.get('API_HASH', 'db7236b74acf5942768e320b41c2547a')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6270831968:AAGY8PTyVTYHM0UBHlj9GnwZZu6dMYdouoc")
 
 # Bot settings
@@ -49,22 +49,22 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_filesg')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'ziplinker.net')
-SHORTLINK_API = environ.get('SHORTLINK_API', '70d5d2a1582bf3b6bd957cd016c865b69cae0fe6')
-SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'ziplinker.net')
-SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '70d5d2a1582bf3b6bd957cd016c865b69cae0fe6')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'zxlink.in')
+SHORTLINK_API = environ.get('SHORTLINK_API', '9c78a1886278a24832b0179cce70640a879e3f76')
+SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'zxlink.in')
+SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '9c78a1886278a24832b0179cce70640a879e3f76')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 PORT = environ.get("PORT", "8080")
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+Sz-hY0aGQfgwNDJl')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/upgrade_botz')
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/upgrade_botz')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+M49eMd7QIOhjY2I1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/+mq_jppeiKWoxNGI1')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/HowToDownloadMovieRk/3')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
 MSG_ALRT = environ.get('MSG_ALRT', 'Wʜᴀᴛ Aʀᴇ Yᴏᴜ Lᴏᴏᴋɪɴɢ Aᴛ ?')
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001859923275'))
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'upgrade_botz')
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+M49eMd7QIOhjY2I1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "False")), False)
 IMDB = is_enabled((environ.get('IMDB', "False")), False)
 AUTO_FFILTER = is_enabled((environ.get('AUTO_FFILTER', "True")), True)
