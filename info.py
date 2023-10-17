@@ -49,8 +49,8 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_fileg')
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'Paisakamalo.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', '8cd309cdcc4540facb9b0e8ea99088df38b3f8e6')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'http://ronylink.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', '02852e7906f7250a6173ee3683324ca5858d125f')
 SECOND_SHORTLINK_URL = environ.get('SECOND_SHORTLINK_URL', 'Paisakamalo.in')
 SECOND_SHORTLINK_API = environ.get('SECOND_SHORTLINK_API', '8cd309cdcc4540facb9b0e8ea99088df38b3f8e6')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', True))
