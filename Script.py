@@ -4,7 +4,7 @@ class script(object):
 ɪ ᴀᴍ ᴘᴏᴡᴇʀ ғᴜʟʟ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ
 ɪ ᴀᴍ ᴘᴍ sʜᴏʀᴛɴᴇʀ-ʟɪɴᴋ ʙᴏᴛ
 
-ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/vinaychauhanjaat">ᴰᴱⱽᴱᴸᴼᴾᴱᴿ</a></b> ⚡</b>"""
+ᴍᴀɴᴛᴀɪɴᴇᴅ ʙʏ : <a href="https://t.me/V_Sbotmaker">ᴰᴱⱽᴱᴸᴼᴾᴱᴿ</a></b> ⚡</b>"""
 
     
     HELP_TXT = """<b>Hᴇʏ {}
@@ -12,7 +12,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>
  🤖 ᴍʏ ɴᴀᴍᴇ : {}
- 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/vinaychauhanjaat'>ᴰᴱⱽᴱᴸᴼᴾᴱᴿ</a>
+ 👨‍💻 ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/V_Sbotmaker'>ᴰᴱⱽᴱᴸᴼᴾᴱᴿ</a>
  📚 ʟɪʙʀᴀʀʏ : <a href='https://docs.pyrogram.org/'>ᴘʏʀᴏɢʀᴀᴍ</a>
  📝 ʟᴀɴɢᴜᴀɢᴇ : <a href='https://www.python.org/download/releases/3.0/'>ᴘʏᴛʜᴏɴ 3</a>
  ♻️ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>
@@ -248,4 +248,4 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     LOGO = """
-CREZYDEVELOPERS"""
+VSDEVELOPERS"""
