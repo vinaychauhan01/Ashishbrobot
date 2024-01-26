@@ -100,21 +100,11 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /delallg - <code>Tᴏ ᴅᴇʟᴇᴛᴇ ᴀʟʟ Gғɪʟᴛᴇʀs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>
 • /deletefiles - <code>Tᴏ ᴅᴇʟᴇᴛᴇ CᴀᴍRɪᴘ ᴀɴᴅ PʀᴇDVD Fɪʟᴇs ғʀᴏᴍ ᴛʜᴇ ʙᴏᴛ's ᴅᴀᴛᴀʙᴀsᴇ.</code>"""
 
-    STATUS_TXT = """<b>⏳ ʙᴏᴛ ᴜᴘᴛɪᴍᴇ:</b> <code>{}</code>
- 
-<b>☣️ ᴄᴘᴜ:</b> <code>{}%</code>
-
-<b>☢️ ʀᴀᴍ:</b> <code>{}%</code>
-
-<b>📊 ғɪʟᴇs sᴀᴠᴇᴅ:</b> <code>{}</code>
-
-<b>👤 ᴜsᴇʀs:</b> <code>{}</code>
-
-<b>👥 ɢʀᴏᴜᴘs:</b> <code>{}</code>
-
-<b>🉐 ᴏᴄᴄᴜᴘɪᴇᴅ:</b> <code>{}</code>
-
-<b>🆓 ғʀᴇᴇ:</b> <code>{}</code> """
+    STATUS_TXT = """<b>📑 ғɪʟᴇs sᴀᴠᴇᴅ: <code>{}</code>
+👤 ᴛᴏᴛᴀʟ ᴜsᴇʀs: <code>{}</code>
+♻️ ᴛᴏᴛᴀʟ ᴄʜᴀᴛs: <code>{}</code>
+🗃️ ᴜsᴇᴅ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱
+🆓 ғʀᴇᴇ sᴛᴏʀᴀɢᴇ: <code>{}</code> 𝙼𝚒𝙱</b>"""
 
     LOG_TEXT_G = """#NewGroup
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
