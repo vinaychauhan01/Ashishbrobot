@@ -5,7 +5,7 @@ RUN apt install git -y
 COPY requirements.txt /requirements.txt
 
 RUN cd /
-RUN pip3 install -U -r requirements.txt
+RUN pip install -r requirements.txt
 RUN mkdir /Ashishbrobot
 WORKDIR /Ashishbrobot
 COPY start.sh /start.sh
